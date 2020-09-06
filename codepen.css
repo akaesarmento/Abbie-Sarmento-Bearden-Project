@@ -1,0 +1,253 @@
+body {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* nav bar*/
+.nav-wrapper {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+
+/*left side- nav*/
+.nav-wrapper > .left-image > .logo-image {
+    filter: invert();
+    
+}
+
+.nav-wrapper > .left-image > .logo-image img {
+    height: 120px;
+    padding: 0px 0px 30px 15px
+}
+
+
+/*center nav*/
+.nav-wrapper > .center-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 340px;
+    margin-left: -300px;
+}
+
+.nav-wrapper > .center-links > .navigation-links-header {
+    display: flex;
+    justify-content: left;
+    color: #efef6d;
+}
+
+.nav-wrapper > .center-links > .navigation-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-wrapper > .center-links > .navigation-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 900; 
+}
+
+.nav-wrapper > .center-links > .navigation-links > .nav-dropdown {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: #878787;  
+}
+
+.nav-wrapper > .center-links > .navigation-links > .nav-dropdown > .icon {
+    margin-left: 12px;
+}
+
+
+/*left nav*/
+.nav-wrapper > .right-buttons {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.nav-wrapper > .right-buttons > .create-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    padding: 20px 20px;
+    background-color: #474e51;
+    width: 75px;
+    height: 25px;
+    border-radius: 3px;
+    font-weight: 900;
+    margin-left: -100px;
+}
+
+.nav-wrapper > .right-buttons > .create-wrapper > .icon {
+    padding-left: 5px;
+    color: #4bd55e;
+}
+
+.nav-wrapper > .right-buttons > .search-icon {
+    color: #878787;
+    margin: 20px 0px 20px 20px;
+}
+
+.nav-wrapper > .right-buttons > .search-icon i {
+    font-size: 2em;
+}
+
+.nav-wrapper > .right-buttons > .login-button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    padding: 20px 10px;
+    background-color: #474e51;
+    width: 75px;
+    height: 25px;
+    border-radius: 3px;
+    font-weight: 900;
+    margin: 0px 30px 0px 30px;
+}
+
+.nav-wrapper > .right-buttons > .sign-up-button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    padding: 20px 15px;
+    background-color: #474e51;
+    width: 75px;
+    height: 25px;
+    border-radius: 3px;
+    font-weight: 900;
+    margin: 0px 10px 0px 0px;
+}
+
+/*background image*/
+.homepage-information {
+    background-image: url(https://masterwriter.com/wp-content/uploads/2017/06/gray-gradient-wallpaper-3.jpg);
+    padding: 100px;
+    height: 700px;  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+/* homepage information*/
+.homepage-information > .homepage-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.homepage-information > .homepage-wrapper > .information-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: -90px;
+}
+
+.homepage-information > .homepage-wrapper > .information-wrapper > .top-information-header p {
+    font-size: 2.5rem;
+    color: #c7c9d3;
+}
+
+.homepage-information > .homepage-wrapper > .information-wrapper > .top-information-header p strong {
+    color: white;
+}
+
+.homepage-information > .homepage-wrapper > .information-wrapper > .mid-information p {
+    font-size: 2rem;
+    color: #aeb1bd;
+    margin: 0px;
+}
+
+.homepage-information > .homepage-wrapper > .information-wrapper > .button-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.homepage-information > .homepage-wrapper > .information-wrapper > .button-wrapper > .sign-up-for-free > .sign-up-btn {
+    background-color: #4bd55e;
+    color: black;
+    font-size: 1.75em;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 25px;
+    border: 1px solid #4bd55e;
+    border-radius: 2px;
+    outline: none;
+    margin: 15px 20px 0px 0px;
+
+}
+
+.homepage-information > .homepage-wrapper > .information-wrapper > .button-wrapper > .learn-more > .learn-btn {
+    background-color: black;
+    color: white;
+    font-size: 1.75em;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 25px;
+    border: 1px solid black;
+    border-radius: 2px;
+    outline: none;
+    margin: 15px 0px 0px 0px;
+}
+
+/*right image and text*/
+.homepage-information > .homepage-wrapper > .coding-image-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0px -200px 0px 100px;
+}
+
+.homepage-information > .homepage-wrapper > .coding-image-wrapper p {
+    color: white;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+.homepage-information > .homepage-wrapper > .coding-image-wrapper p strong {
+    color: rgb(86, 219, 236);
+}
+
+.homepage-information > .homepage-wrapper > .coding-image-wrapper img {
+    height: 400px;
+    box-shadow: -26px 16px 24px -2px rgba(0,0,0,0.75);
+}
+
+/*bottom bar */
+
+.homepage-information > .bottom-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #474e51;
+    height: 65px;
+    border: 1px solid #aeb1bd;
+    margin-top: 10px;
+}
+.homepage-information > .bottom-bar h1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 50px;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    border-left: 1px solid #aeb1bd;
+
+}
+
+.homepage-information > .bottom-bar h1 strong {
+    font-size: 1em;
+    font-family: 'Black Han Sans', sans-serif;
+    color: white;
+    margin-left: -70px;
+}
